@@ -6,4 +6,10 @@
 
     <context:annotation-config/>
     <context:component-scan base-package="com.springmvc._01_designing_controller"/>
+
+<!--    Configuring View resolver-->
+    <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/WEB-INF/view/" />
+        <property name="suffix" value=".jsp" />
+    </bean>
 </beans>
