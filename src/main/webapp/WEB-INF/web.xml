@@ -18,7 +18,7 @@
 
   <servlet-mapping>
     <servlet-name>dispatcher-servlet</servlet-name>
-    <url-pattern>/Swad/*</url-pattern>
+    <url-pattern>/swad/*</url-pattern>
   </servlet-mapping>
 
 
